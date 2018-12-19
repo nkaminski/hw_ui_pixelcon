@@ -1,0 +1,17 @@
+=== Hardware-based UI Arduino Pixel Controller ===
+
+
+hw_ui_pixelcontroller is a simple pixel controller application for Arduino with 
+a strictly "hardware based" user interface, in the sense that the behavior 
+of the attached pixel string can be controlled via the presence or absence
+of at most 3 M-M jumper wires with no additional components needed. This is
+convenient when you wish to modify the behavior on a semi-regular basis
+but don't have access to a suitable computer at such location for example.
+
+Usage: Details of the configuration and behavior are documented at the top of the
+main source code file. 
+
+This should work on any board supported by the FastLED (http://fastled.io/)
+libraries, but has only been tested on an Arduino Mega 2560.
+
+License: MIT
